@@ -25,7 +25,7 @@ const projects: Project[] = [
     longDescription: "A fully custom grievance portal built with Flutter, React.js and Firebase. Designed for addressing the grievances inside the campus and supporting lightning-fast page loads. Designed exclusively for Rajalakshmi Institutions.",
     image: "/complix-r-cover.png",
     tags: ["Flutter", "React.js", "Firebase", "Mobile App"],
-    link: "https://complix-r.demo", // Example actual link placeholder
+    link: "https://play.google.com/store/apps/details?id=com.ritchennai.complixr&pcampaignid=web_share",
   },
   {
     id: 2,
@@ -164,7 +164,7 @@ const Projects = () => {
                         rel="noopener noreferrer"
                         className="btn-primary flex items-center gap-2 !px-6 text-sm"
                       >
-                        <ExternalLink size={16} /> Live Demo
+                        <ExternalLink size={16} /> Play store
                       </a>
                     )}
                     {selectedProject.github && selectedProject.github !== "#" && (
