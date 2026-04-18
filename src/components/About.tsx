@@ -59,7 +59,7 @@ const About = () => {
           >
             <div className="relative w-full h-[600px]">
               <Image
-                src="/my-portrait.jpeg"
+                src="/my-portrait.png"
                 alt="Developer Portrait"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
